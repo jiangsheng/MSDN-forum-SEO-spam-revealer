@@ -1,0 +1,36 @@
+// MSDNForumBrowserHelper.idl : IDL source for MSDNForumBrowserHelper
+//
+
+// This file will be processed by the MIDL tool to
+// produce the type library (MSDNForumBrowserHelper.tlb) and marshalling code.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(A186BA5B-E2CB-47AE-BFC4-D49D19EEDB40),
+	dual,
+	nonextensible,
+	helpstring("IMSDNForumHelper Interface"),
+	pointer_default(unique)
+]
+interface IMSDNForumHelper : IDispatch{
+};
+[
+	uuid(1EF5E502-312E-4C0D-97AF-A24C8E7BF69A),
+	version(1.0),
+	helpstring("MSDNForumBrowserHelper 1.0 Type Library")
+]
+library MSDNForumBrowserHelperLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(DB8A1458-257D-421B-9668-8010498A41AF),
+		helpstring("MSDNForumHelper Class")
+	]
+	coclass MSDNForumHelper
+	{
+		[default] interface IMSDNForumHelper;
+	};
+};

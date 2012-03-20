@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MSDNForumBrowserHelper", "MSDNForumBrowserHelper\MSDNForumBrowserHelper.vcproj", "{52B99C10-C4D8-4DC6-9C53-95DE0341A192}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MSDNForumBrowserHelperPS", "MSDNForumBrowserHelper\MSDNForumBrowserHelperPS.vcproj", "{458A791C-10B0-454E-B5DD-4D5C1D9BBA98}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{52B99C10-C4D8-4DC6-9C53-95DE0341A192} = {52B99C10-C4D8-4DC6-9C53-95DE0341A192}
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MSDNForumBrowserHelperSetup", "MSDNForumBrowserHelperSetup\MSDNForumBrowserHelperSetup.vdproj", "{AA0DABF6-F337-4AC1-A37B-7711C7543859}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52B99C10-C4D8-4DC6-9C53-95DE0341A192}.Debug|Win32.ActiveCfg = Debug|Win32
+		{52B99C10-C4D8-4DC6-9C53-95DE0341A192}.Debug|Win32.Build.0 = Debug|Win32
+		{52B99C10-C4D8-4DC6-9C53-95DE0341A192}.Release|Win32.ActiveCfg = Release|Win32
+		{52B99C10-C4D8-4DC6-9C53-95DE0341A192}.Release|Win32.Build.0 = Release|Win32
+		{458A791C-10B0-454E-B5DD-4D5C1D9BBA98}.Debug|Win32.ActiveCfg = Debug|Win32
+		{458A791C-10B0-454E-B5DD-4D5C1D9BBA98}.Release|Win32.ActiveCfg = Release|Win32
+		{AA0DABF6-F337-4AC1-A37B-7711C7543859}.Debug|Win32.ActiveCfg = Debug
+		{AA0DABF6-F337-4AC1-A37B-7711C7543859}.Release|Win32.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

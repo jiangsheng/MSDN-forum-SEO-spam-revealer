@@ -1,0 +1,9 @@
+; MSDNForumBrowserHelper.def : Declares the module parameters.
+
+LIBRARY      "MSDNForumBrowserHelper.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE

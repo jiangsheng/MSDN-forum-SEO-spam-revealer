@@ -1,0 +1,29 @@
+HKCR
+{
+	NoRemove AppID
+	{
+		'%APPID%' = s 'MSDNForumBrowserHelper'
+		'MSDNForumBrowserHelper.DLL'
+		{
+			val AppID = s '%APPID%'
+		}
+	}
+}
+
+HKLM {
+  NoRemove SOFTWARE {
+    NoRemove Microsoft {   
+      NoRemove Windows {
+        NoRemove CurrentVersion {
+          NoRemove Explorer {
+            NoRemove 'Browser Helper Objects' {
+              ForceRemove '{DB8A1458-257D-421B-9668-8010498A41AF}' = s 'MSDNForumBrowserHelper' {
+                val 'NoExplorer' = d '1'
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

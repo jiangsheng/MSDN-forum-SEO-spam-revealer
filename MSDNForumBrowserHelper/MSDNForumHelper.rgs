@@ -1,0 +1,27 @@
+HKCR
+{
+	MSDNForumBrowserHelper.MSDNForumHelpe.1 = s 'MSDNForumHelper Class'
+	{
+		CLSID = s '{DB8A1458-257D-421B-9668-8010498A41AF}'
+	}
+	MSDNForumBrowserHelper.MSDNForumHelper = s 'MSDNForumHelper Class'
+	{
+		CLSID = s '{DB8A1458-257D-421B-9668-8010498A41AF}'
+		CurVer = s 'MSDNForumBrowserHelper.MSDNForumHelpe.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {DB8A1458-257D-421B-9668-8010498A41AF} = s 'MSDNForumHelper Class'
+		{
+			ProgID = s 'MSDNForumBrowserHelper.MSDNForumHelpe.1'
+			VersionIndependentProgID = s 'MSDNForumBrowserHelper.MSDNForumHelper'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			val AppID = s '%APPID%'
+			'TypeLib' = s '{1EF5E502-312E-4C0D-97AF-A24C8E7BF69A}'
+		}
+	}
+}
