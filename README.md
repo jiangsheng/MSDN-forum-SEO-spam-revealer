@@ -15,3 +15,4 @@ so moderators can easily spot the seo spam posts.
 
 the real fix would be for forum sites to add "nofollow" to links so a back link does not increase the target's page rank.
 this does not stop spams from coming immidately but once they found out their effort is futile then the spam would stop. 
+if you own a forum and want to see if you are targetted, search "dofollow forums" in a search engine.
