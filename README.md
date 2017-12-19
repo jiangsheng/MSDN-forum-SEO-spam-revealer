@@ -13,4 +13,5 @@ is nothing more than a bait and people really are wasting their time writing det
 this extension helps to remove the decrotation added to links (and paint those link in red instead of the default blue by the way)
 so moderators can easily spot the seo spam posts. 
 
-the real fix would be for forum sites to adding "nofollow" to links so a back link does not increase the target's page rank. 
+the real fix would be for forum sites to adding "nofollow" to links so a back link does not increase the target's page rank.
+this does not stop spams from coming immidately but once they found out their effort is futile then the spam would stop. 
